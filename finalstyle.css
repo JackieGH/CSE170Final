@@ -152,11 +152,10 @@ h3 {
 }
 
 .reaction-wrapper {
+    position:absolute;
     display: flex;
     justify-content: flex-end;
-    padding: 5px;
 }
-
 
 #likebtn {
     width: 30px;
@@ -188,11 +187,8 @@ h3 {
     color: #d63384;
 }
 
-.nav-btn:hover {
-    text-decoration: underline;
-}
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     body {
         font-size: 14px;
@@ -212,3 +208,4 @@ h3 {
         padding: 5px;
     }
 }
+
